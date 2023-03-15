@@ -18,11 +18,10 @@ import users from '../data/users';
  * - Gunakan method map untuk format user.
  * - Gunakan promise untuk handle asynchronous.
  */
-// const formatUser = users.map((title) => `Mr/Mrs. ${title}`);
 const formatUser = (title) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(users.map((users) => users));
+      resolve(users.map((users) => (users = { ...users, name: `${title} ${users.name}` })));
     }, 3000);
   });
 };
