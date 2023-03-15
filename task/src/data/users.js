@@ -1,28 +1,28 @@
 const users = [
   {
-    name: "Aufa",
+    name: 'Aufa',
     age: 22,
-    major: "Frontend Engineer",
+    major: 'Frontend Engineer',
   },
   {
-    name: "Isfa",
+    name: 'Isfa',
     age: 20,
-    major: "Android Engineer",
+    major: 'Android Engineer',
   },
   {
-    name: "Agung",
+    name: 'Agung',
     age: 24,
-    major: "Data Engineer",
+    major: 'Data Engineer',
   },
   {
-    name: "Nurul",
+    name: 'Nurul',
     age: 24,
-    major: "English",
+    major: 'English',
   },
   {
-    name: "Jaki",
+    name: 'Jaki',
     age: 27,
-    major: "English",
+    major: 'English',
   },
 ];
 
@@ -31,4 +31,4 @@ const users = [
  * Export variable users.
  * Gunakan export default.
  */
-// CODE HERE
+export default users;
